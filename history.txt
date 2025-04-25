@@ -1,15 +1,15 @@
-David Griswold
-John P.
-Joao Porto
-
-Charlotte Pinheiro
-Max Billep
-Tristan Soriano
-
-Toby Vidal
-Pedro Martins
-Rafael Pereira
-
-Tomi Peres
-Joao Camarao
-Matheus Lisboa
+Group 1:
+  - Manuella M.
+  - Tomi Peres
+  - Max Billep
+  - Rafael Pereira
+Group 2:
+  - Tristan Soriano
+  - Joao Camarao
+  - Charlotte Pinheiro
+  - David Griswold
+Group 3:
+  - Pedro Martins
+  - Rebecca Heisenberg
+  - Toby Vidal
+  - Matheus Lisboa
