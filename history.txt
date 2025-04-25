@@ -1,0 +1,16 @@
+Group 1:
+  - Rebecca Heisenberg
+  - David Griswold
+  - Max Billep
+Group 2:
+  - Rafael Pereira
+  - Charlotte Pinheiro
+  - Matheus Lisboa
+Group 3:
+  - Manuella M.
+  - Pedro Martins
+  - Tomi Peres
+Group 4:
+  - Toby Vidal
+  - Joao Camarao
+  - Tristan Soriano
