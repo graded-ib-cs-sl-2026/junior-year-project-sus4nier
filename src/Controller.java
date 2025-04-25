@@ -3,7 +3,10 @@ import java.io.FileNotFoundException;
 public class Controller {
     private View io = new View();
     private Model mod = new Model();
-
+    
+    public Controller() {
+        mod.setController(this); // this was a fix for a stackoverflow error // fixed by chatGPT in the chat: https://chatgpt.com/share/680bbd83-1668-8011-9c9a-ee2f741180b9
+    }
     public void start() {
         String studentsF = "students.txt";
         try {
@@ -17,6 +20,7 @@ public class Controller {
         } catch (FileNotFoundException e) {
             return;
         }
+        
         boolean shouldImport = askImportHistory();
         if (shouldImport) {
             String fname = "history.txt";
@@ -30,13 +34,12 @@ public class Controller {
                 String nextLine = io.getNextLine();
                 io.output(nextLine);
             }
-             
-            manualGroupChanges(new String[0][0]);
             return;
         }
         askNumberOfStudents();
-        mod.randomize(students, 12);
         String[][] groups = splitIntoGroups(students, nOfStudentsInG);
+        mod.randomize(students, 12);
+        
         for (int i = 0; i < groups.length; i++) {
             io.output("Group " + (i + 1) + ":");
             for (int j = 0; j < groups[i].length; j++) {

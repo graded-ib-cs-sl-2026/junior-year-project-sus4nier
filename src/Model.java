@@ -1,16 +1,21 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Random;
-import java.util.Scanner;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Random;
+import java.util.Scanner;
 
 public class Model {
     private View io = new View();
-    private Controller con = new Controller();
     private Scanner fileInput;
     private File file;
     private String[] students = new String[12];
+
+    private Controller con;
+
+    public void setController(Controller con) {
+    this.con = con;
+}
 
     public void fileToArr(String filename) throws FileNotFoundException { // converts the students.txt file into a array of strings
         io.openFile(filename); 

@@ -1,15 +1,16 @@
 Group 1:
-  - Manuella M.
-  - Tomi Peres
-  - Max Billep
-  - Rafael Pereira
-Group 2:
-  - Tristan Soriano
-  - Joao Camarao
-  - Charlotte Pinheiro
-  - David Griswold
-Group 3:
-  - Pedro Martins
   - Rebecca Heisenberg
-  - Toby Vidal
+  - David Griswold
+  - Max Billep
+Group 2:
+  - Rafael Pereira
+  - Charlotte Pinheiro
   - Matheus Lisboa
+Group 3:
+  - Manuella M.
+  - Pedro Martins
+  - Tomi Peres
+Group 4:
+  - Toby Vidal
+  - Joao Camarao
+  - Tristan Soriano
